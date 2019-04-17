@@ -9,6 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
+REM set BUILDDIR=..
 
 if "%1" == "" goto help
 
@@ -33,3 +34,4 @@ goto end
 
 :end
 popd
+
